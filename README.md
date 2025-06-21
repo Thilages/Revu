@@ -82,24 +82,6 @@ revu/
 └── utils/           # Utility functions and helpers
 ```
 
-## 🚀 Deployment
-
-The application is ready for deployment on Vercel. Follow these steps:
-
-1. Install Vercel CLI:
-   ```bash
-   npm install -g vercel
-   ```
-
-2. Login to Vercel:
-   ```bash
-   vercel login
-   ```
-
-3. Deploy the application:
-   ```bash
-   vercel
-   ```
 
 ## 📝 License
 
