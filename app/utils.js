@@ -5,7 +5,7 @@ import { YoutubeTranscript } from '@danielxceron/youtube-transcript';
 const GOOGLE_API_KEY = "AIzaSyBJz4kmyon2Aib5NgthJwZ19MqtCcX8AiQ"
 
 const searchYouTube = async (query) => {
-  const YOUTUBE_API_KEY = "AIzaSyAiy208cJ5vzR-lygB5CvvtWNMc1rp4JaI";
+  const YOUTUBE_API_KEY = "AIzaSyA3TssU7W3USQrz3OBYkRWM2knk0tyu63A";
   const baseURL = "https://www.googleapis.com/youtube/v3";
 
   try {
