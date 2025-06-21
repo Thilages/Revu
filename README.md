@@ -85,6 +85,15 @@ revu/
   - `@danielxceron/youtube-transcript` for transcript extraction
   - `axios` for HTTP requests
   - `lucide-react` for icons
+ 
+## 📖 Learn More
+
+To learn more about Next.js and the technologies used in this project:
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [React Documentation](https://react.dev/)
+- [Google Generative AI Documentation](https://ai.google.dev/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 
 
 
