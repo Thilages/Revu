@@ -11,8 +11,8 @@ A modern web application built with Next.js that analyzes YouTube videos and pro
 - 📊 **Visual Analytics**: Beautiful, modern interface with gradient backgrounds and animations
 - 📱 **Responsive Design**: Works perfectly on all devices
 
-![Review Analysis](https://revu-eight.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freview-example.1b1a2354.png&w=1920&q=75)
-
+![Review Analysis](https://github.com/Thilages/Revu/blob/main/Screenshot%202025-06-21%20114919.png)
+![](https://github.com/Thilages/Revu/blob/main/Screenshot%20(50).png)
 ## 🚀 Features
 
 - YouTube video analysis and review generation
