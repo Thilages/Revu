@@ -1,36 +1,253 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Revu - YouTube Video Analysis Application
 
-## Getting Started
+A modern web application built with Next.js that analyzes YouTube videos and provides detailed insights and reviews using AI-powered technologies.
 
-First, run the development server:
+![Revu Interface](https://revu-eight.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-bg.1b1a2354.png&w=1920&q=75)
+
+## 🎯 Key Features
+
+- 🎬 **YouTube Video Analysis**: Instantly analyze YouTube videos and extract key insights
+- 🤖 **AI-Powered Reviews**: Generate comprehensive reviews using Google's Generative AI
+- 📊 **Visual Analytics**: Beautiful, modern interface with gradient backgrounds and animations
+- 📱 **Responsive Design**: Works perfectly on all devices
+
+![Review Analysis](https://revu-eight.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freview-example.1b1a2354.png&w=1920&q=75)
+
+## 🚀 Features
+
+- YouTube video analysis and review generation
+- AI-powered content analysis using Google's Generative AI
+- Video transcript extraction and processing
+- Modern, responsive UI with Tailwind CSS
+- Real-time video processing capabilities
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15
+- **Language**: React 19
+- **AI Integration**: Google Generative AI
+- **Styling**: Tailwind CSS
+- **Dependencies**:
+  - `@danielxceron/youtube-transcript` for transcript extraction
+  - `ytdl-core` for video download
+  - `fast-xml-parser` for XML processing
+  - `axios` for HTTP requests
+  - `lucide-react` for icons
+
+## 💻 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn package manager
+- Google Cloud API credentials for Generative AI
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Thilages/Revu.git
+   cd Revu
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Set up environment variables:
+   Create a `.env.local` file with your Google Cloud credentials:
+   ```
+   GOOGLE_API_KEY=your_api_key_here
+   ```
+
+### Running the Application
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📚 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+revu/
+├── app/              # Next.js application routes and pages
+├── public/           # Static assets
+├── components/       # Reusable React components
+├── styles/          # Global styles and Tailwind configuration
+└── utils/           # Utility functions and helpers
+```
 
-## Learn More
+## 🚀 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The application is ready for deployment on Vercel. Follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Install Vercel CLI:
+   ```bash
+   npm install -g vercel
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Login to Vercel:
+   ```bash
+   vercel login
+   ```
 
-## Deploy on Vercel
+3. Deploy the application:
+   ```bash
+   vercel
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📖 Learn More
+
+To learn more about Next.js and the technologies used in this project:
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [React Documentation](https://react.dev/)
+- [Google Generative AI Documentation](https://ai.google.dev/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+
+## 🌐 Live Demo
+
+Check out the live demo at: [https://revu-eight.vercel.app](https://revu-eight.vercel.app)
+
+![Live Demo](https://revu-eight.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-bg.1b1a2354.png&w=1920&q=75)
+
+## 📸 Screenshots
+
+![Home Page](https://revu-eight.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-bg.1b1a2354.png&w=1920&q=75)
+
+![Review Analysis](https://revu-eight.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freview-example.1b1a2354.png&w=1920&q=75)
+
+![Mobile View](https://revu-eight.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmobile-view.1b1a2354.png&w=1920&q=75)
+
+## 🚀 Features
+
+- YouTube video analysis and review generation
+- AI-powered content analysis using Google's Generative AI
+- Video transcript extraction and processing
+- Modern, responsive UI with Tailwind CSS
+- Real-time video processing capabilities
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15
+- **Language**: React 19
+- **AI Integration**: Google Generative AI
+- **Styling**: Tailwind CSS
+- **Dependencies**:
+  - `@danielxceron/youtube-transcript` for transcript extraction
+  - `ytdl-core` for video download
+  - `fast-xml-parser` for XML processing
+  - `axios` for HTTP requests
+  - `lucide-react` for icons
+
+## 💻 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn package manager
+- Google Cloud API credentials for Generative AI
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Thilages/Revu.git
+   cd Revu
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Set up environment variables:
+   Create a `.env.local` file with your Google Cloud credentials:
+   ```
+   GOOGLE_API_KEY=your_api_key_here
+   ```
+
+### Running the Application
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
+
+## 📚 Project Structure
+
+```
+revu/
+├── app/              # Next.js application routes and pages
+├── public/           # Static assets
+├── components/       # Reusable React components
+├── styles/          # Global styles and Tailwind configuration
+└── utils/           # Utility functions and helpers
+```
+
+## 🚀 Deployment
+
+The application is ready for deployment on Vercel. Follow these steps:
+
+1. Install Vercel CLI:
+   ```bash
+   npm install -g vercel
+   ```
+
+2. Login to Vercel:
+   ```bash
+   vercel login
+   ```
+
+3. Deploy the application:
+   ```bash
+   vercel
+   ```
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📖 Learn More
+
+To learn more about Next.js and the technologies used in this project:
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [React Documentation](https://react.dev/)
+- [Google Generative AI Documentation](https://ai.google.dev/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+
+## 📈 Project Stats
+
+- ⭐️ Stars: [GitHub Stars](https://github.com/Thilages/Revu/stargazers)
+- 📦 Dependencies: 20+
+- 📊 Code Size: 100+ KB
+- 🚀 Performance: Optimized for fast loading
+
+## 🤝 Support
+
+For support, please open an issue in the [GitHub repository](https://github.com/Thilages/Revu) or contact the maintainers directly.
