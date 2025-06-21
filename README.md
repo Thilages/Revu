@@ -2,7 +2,7 @@
 
 A modern web application built with Next.js that analyzes YouTube videos and provides detailed insights and reviews using AI-powered technologies.
 
-![Revu Interface](https://revu-eight.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-bg.1b1a2354.png&w=1920&q=75)
+![Revu Interface](https://github.com/Thilages/Revu/blob/main/image.png)
 
 ## 🎯 Key Features
 
