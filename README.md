@@ -18,6 +18,55 @@ A modern web application built with Next.js that analyzes YouTube videos and pro
 
 ![Review Analysis](https://github.com/Thilages/Revu/blob/main/Screenshot%202025-06-21%20114919.png)
 ![](https://github.com/Thilages/Revu/blob/main/Screenshot%20(50).png)
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn package manager
+- Google Cloud API credentials for Generative AI
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Thilages/Revu.git
+   cd Revu
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Set up environment variables:
+   Create a `.env.local` file with your Google Cloud credentials:
+   ```
+   GOOGLE_API_KEY=your_api_key_here
+   ```
+
+### Running the Application
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
+
+## 📚 Project Structure
+
+```
+revu/
+├── app/              # Next.js application routes and pages
+├── public/           # Static assets
+├── components/       # Reusable React components
+├── styles/          # Global styles and Tailwind configuration
+└── utils/           # Utility functions and helpers
+```
+
 ## 🚀 Features
 
 - YouTube video analysis and review generation
