@@ -1,4 +1,6 @@
+'use client'
 import { GoogleGenerativeAI } from "@google/generative-ai";
+import { YoutubeTranscript } from '@danielxceron/youtube-transcript';
 
 const GOOGLE_API_KEY = "AIzaSyBJz4kmyon2Aib5NgthJwZ19MqtCcX8AiQ"
 
@@ -54,7 +56,7 @@ const getVideoDetails = async (productName, catagry) => {
 
 const fetchTranscriptFromAPI = async (videoId) => {
   try {
-    const response = await fetch('/api/youtube', {
+    const response = await fetch('https://web-production-da424.up.railway.app/get-transcript', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
