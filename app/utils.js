@@ -61,7 +61,7 @@ const fetchTranscriptFromAPI = async (videoId) => {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ videoId }),
+      body: JSON.stringify({ video_id: videoId }),
     });
 
 
