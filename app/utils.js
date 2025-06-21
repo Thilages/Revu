@@ -56,7 +56,7 @@ const getVideoDetails = async (productName, catagry) => {
 
 const fetchTranscriptFromAPI = async (videoId) => {
   try {
-    const response = await fetch('https://web-production-f382.up.railway.app/get-transcript', {
+    const response = await fetch('https://web-production-8f55f8.up.railway.app/get-transcript', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
