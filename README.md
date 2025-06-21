@@ -124,14 +124,6 @@ Check out the live demo at: [https://revu-eight.vercel.app](https://revu-eight.v
 
 ![Live Demo](https://revu-eight.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-bg.1b1a2354.png&w=1920&q=75)
 
-## 📸 Screenshots
-
-![Home Page](https://revu-eight.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-bg.1b1a2354.png&w=1920&q=75)
-
-![Review Analysis](https://revu-eight.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freview-example.1b1a2354.png&w=1920&q=75)
-
-![Mobile View](https://revu-eight.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmobile-view.1b1a2354.png&w=1920&q=75)
-
 ## 🚀 Features
 
 - YouTube video analysis and review generation
