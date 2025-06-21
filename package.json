@@ -9,15 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@danielxceron/youtube-transcript": "^1.2.3",
+    "@google/genai": "^1.5.1",
+    "@google/generative-ai": "^0.24.1",
+    "@next/font": "^14.2.15",
+    "axios": "^1.10.0",
+    "fast-xml-parser": "^5.2.5",
+    "lucide-react": "^0.518.0",
+    "next": "15.3.4",
+    "node-fetch": "^3.3.2",
+    "node-html-parser": "^7.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.4"
+    "ytdl-core": "^4.11.5"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4"
   }
 }
