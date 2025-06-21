@@ -60,11 +60,6 @@ A modern web application built with Next.js that analyzes YouTube videos and pro
    yarn install
    ```
 
-3. Set up environment variables:
-   Create a `.env.local` file with your Google Cloud credentials:
-   ```
-   GOOGLE_API_KEY=your_api_key_here
-   ```
 
 ### Running the Application
 
