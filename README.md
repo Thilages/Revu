@@ -1,5 +1,10 @@
 # Revu - YouTube Video Analysis Application
 
+## 🌐 Live Demo
+
+Check out the live demo at: [https://revu-eight.vercel.app](https://revu-eight.vercel.app)
+
+
 A modern web application built with Next.js that analyzes YouTube videos and provides detailed insights and reviews using AI-powered technologies.
 
 ![Revu Interface](https://github.com/Thilages/Revu/blob/main/image.png)
@@ -118,11 +123,6 @@ To learn more about Next.js and the technologies used in this project:
 - [Google Generative AI Documentation](https://ai.google.dev/docs)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 
-## 🌐 Live Demo
-
-Check out the live demo at: [https://revu-eight.vercel.app](https://revu-eight.vercel.app)
-
-![Live Demo](https://revu-eight.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-bg.1b1a2354.png&w=1920&q=75)
 
 ## 🚀 Features
 
