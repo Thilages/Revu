@@ -29,8 +29,6 @@ A modern web application built with Next.js that analyzes YouTube videos and pro
 - **Styling**: Tailwind CSS
 - **Dependencies**:
   - `@danielxceron/youtube-transcript` for transcript extraction
-  - `ytdl-core` for video download
-  - `fast-xml-parser` for XML processing
   - `axios` for HTTP requests
   - `lucide-react` for icons
 
@@ -241,13 +239,4 @@ To learn more about Next.js and the technologies used in this project:
 - [Google Generative AI Documentation](https://ai.google.dev/docs)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 
-## 📈 Project Stats
 
-- ⭐️ Stars: [GitHub Stars](https://github.com/Thilages/Revu/stargazers)
-- 📦 Dependencies: 20+
-- 📊 Code Size: 100+ KB
-- 🚀 Performance: Optimized for fast loading
-
-## 🤝 Support
-
-For support, please open an issue in the [GitHub repository](https://github.com/Thilages/Revu) or contact the maintainers directly.
